@@ -49,8 +49,8 @@ La tarea "Leer documentación de Koin DSL" está marcada como completada y **no 
 Ejecución de `./gradlew test` → **BUILD SUCCESSFUL**  
 Ambos tests del `GetPendingTasksUseCase` pasan correctamente.
 
-![Checkpoint 3 - Tests pasando](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
-*(reemplaza con tu captura real)*
+<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/7a87a53d-07f5-4979-802a-393ef79c1cd4" />
+
 
 ## Commits principales (extracto)
 
