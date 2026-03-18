@@ -41,8 +41,8 @@ Búsqueda en todo el paquete `domain` de la cadena `"import android"`:
 La aplicación muestra únicamente las tareas **no completadas** (4 tareas en total).  
 La tarea "Leer documentación de Koin DSL" está marcada como completada y **no aparece** en la lista.
 
-![Checkpoint 2 - Lista de tareas en ejecución](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
-*(reemplaza con tu captura real)*
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/584d483f-65eb-447d-b367-7832bcdb4b3f" />
+
 
 ### Checkpoint 3 – Tests unitarios pasan
 
