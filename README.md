@@ -33,8 +33,8 @@ La capa **domain** NO depende de ninguna otra capa ni del SDK de Android.
 Búsqueda en todo el paquete `domain` de la cadena `"import android"`:  
 **Resultado: 0 coincidencias**
 
-![Checkpoint 1 - Búsqueda sin resultados en domain](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
-*(reemplaza con tu captura real)*
+<img width="1111" height="1030" alt="image" src="https://github.com/user-attachments/assets/1311977c-9f7f-4d21-ae91-9ba07d27fddf" />
+
 
 ### Checkpoint 2 – Solo se muestran tareas pendientes
 
