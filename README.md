@@ -23,3 +23,51 @@ Esta aplicación es una lista de tareas sencilla desarrollada en **Jetpack Compo
 <img width="486" height="541" alt="image" src="https://github.com/user-attachments/assets/42f60630-a83f-4e10-9a95-7db820306c0f" />
 
 
+**Regla de dependencias respetada**:  
+La capa **domain** NO depende de ninguna otra capa ni del SDK de Android.
+
+## Capturas de los checkpoints obligatorios
+
+### Checkpoint 1 – Capa domain sin imports de Android
+
+Búsqueda en todo el paquete `domain` de la cadena `"import android"`:  
+**Resultado: 0 coincidencias**
+
+![Checkpoint 1 - Búsqueda sin resultados en domain](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
+*(reemplaza con tu captura real)*
+
+### Checkpoint 2 – Solo se muestran tareas pendientes
+
+La aplicación muestra únicamente las tareas **no completadas** (4 tareas en total).  
+La tarea "Leer documentación de Koin DSL" está marcada como completada y **no aparece** en la lista.
+
+![Checkpoint 2 - Lista de tareas en ejecución](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
+*(reemplaza con tu captura real)*
+
+### Checkpoint 3 – Tests unitarios pasan
+
+Ejecución de `./gradlew test` → **BUILD SUCCESSFUL**  
+Ambos tests del `GetPendingTasksUseCase` pasan correctamente.
+
+![Checkpoint 3 - Tests pasando](https://i.imgur.com/XXXXXXXXXXXXXXXX.png)  
+*(reemplaza con tu captura real)*
+
+## Commits principales (extracto)
+
+- `Agrega estructura de paquetes Clean Architecture (domain, data, presentation)`
+- `Implementa GetPendingTasksUseCase y migra repositorio a InMemoryTaskRepository`
+- `Reemplaza Hilt por Koin + actualiza ViewModel y MyApp`
+- `Agrega tests unitarios del Use Case`
+- `Documenta README con checkpoints y descripción de arquitectura`
+
+## Tecnologías utilizadas
+
+- Kotlin + Jetpack Compose
+- Clean Architecture
+- Koin (DI)
+- StateFlow + Coroutines
+- JUnit 4 + kotlinx-coroutines-test
+
+
+
+
